@@ -99,10 +99,10 @@ vector < vector <float> > blur(vector < vector < float> > grid, float blurring) 
 	vector < vector <float> > newGrid (height, std::vector<float>(width));
 	vector<float> row;
 	vector < vector <float> > window = {
-										{corner_prob, adjacent_prob, corner_prob},
-										{adjacent_prob, center_prob, adjacent_prob},
-										{corner_prob, adjacent_prob, corner_prob}
-										};
+		{corner_prob, adjacent_prob, corner_prob},
+		{adjacent_prob, center_prob, adjacent_prob},
+		{corner_prob, adjacent_prob, corner_prob}
+		};
 
 	for (int i = 0; i < height; i++) {
 		for (int j = 0;j < width; j++) {
