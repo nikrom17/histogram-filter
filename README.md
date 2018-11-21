@@ -8,7 +8,7 @@ This module was the first step in a rewarding journey towards C++ expertise. By 
 
 ## Project Description:
 
-The goal of this project was to take my  **python**  code I wrote when you  I implemented the two dimensional histogram filter and translate it into  **C++**.
+The goal of this project was to take my  **python**  code I wrote when you  I implemented the two dimensional histogram filter and translate it into  **C++**.The functions I wrote are in the ``helpers.cpp`` and ``localizer.cpp`` files.
 
 I can evaluate the correctness of my code by compiling  `tests.cpp`  and then running the output. Do this by running the following from the command line.
 
